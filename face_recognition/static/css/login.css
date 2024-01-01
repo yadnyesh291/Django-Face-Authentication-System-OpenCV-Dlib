@@ -1,0 +1,113 @@
+
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #020230;
+    color: #ffffff; 
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    /* You can add more styling for the body here */
+}
+
+
+.btn_1{
+        display: inline-block !important;
+        padding: 10px 35px !important;
+        color: #ff4646;
+        background-color: #ff4646 !important;
+        border-radius: 5px !important;
+        border: 1px solid #ff4646 !important;
+        -webkit-transition: all .3s !important;
+        transition: all .3s !important;
+        border: none !important;
+      
+}
+.btn_1:hover {
+    background-color: transparent !important;
+    color: #ff4646 !important;
+    border: 1px solid #ff4646 !important;
+    border-color: #ff4646 !important;
+  }
+.btn_2{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #03a7d3;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #03a7d3;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  }
+.btn_2:hover{
+  background-color: transparent !important;
+  color: #03a7d3;
+}
+
+
+.logmenu {
+    border: #ffffff;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.detectpanel {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #020230;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="button"] {
+    background-color: #008CBA;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #007AAB;
+}

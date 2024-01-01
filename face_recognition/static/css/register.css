@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body, h1, h3, p, form {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h3{
+    color: #020230;
+}
+
+body {
+    background-color: #020230;
+    color: #ffffff; 
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center; 
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mainpart {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #020230;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #020230;
+}
+
+.btn_1 {
+  display: inline-block !important;
+  padding: 10px 15px !important;
+  background-color: #03a7d3 !important;
+  color: #ffffff;
+  border-radius: 5px !important;
+  border: 1px solid #03a7d3 !important;
+  -webkit-transition: all .3s !important;
+  transition: all .3s !important;
+}
+
+.btn_1:hover {
+  background-color: transparent !important;
+  color: #03a7d3 !important;
+}
+
+.try {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.try h3 {
+    color: #ffffff;
+}

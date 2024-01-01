@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <title>
+         facial detection login form
+    </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/login.css'%}">
+</head> 
+<body><!--inside body tag palce :- style="background-image: url('{% static 'face_recognition/images/back.jpg'%}')"-->
+{% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<div class="logmenu">
+    <!--<img src="{% static 'face_recognition\images\yo.png.png'%}" class="face">-->
+    <h2><a>Login Panel </a></h2>
+    <form method="post">
+        <div class="detectpanel">
+             <label>Username</label><br>
+             <input type="text" name="username" id="username" required="">
+        </div>
+        <div class="detectpanel">
+        <label>Password</label><br>
+        <input type="password" id="password" name="password" required="">
+        {% csrf_token %}
+       </div>
+            <input class="btn_1" type="submit" name="" value="Login">
+
+    <a href="/register/" ><input class="btn_2"  type="button" name="" value="SignUp"></a>
+</div>
